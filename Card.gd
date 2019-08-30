@@ -1,10 +1,7 @@
 extends Spatial
 
-#    "login": "CAJAX",
-#    "password": "toto"
-
-#    "login": "",
-#    "password": ""
+var suit
+var rank
 
 func _ready():
 	# Called when the node is added to the scene for the first time.
@@ -15,3 +12,7 @@ func _ready():
 #	# Called every frame. Delta is time since last frame.
 #	# Update game logic here.
 #	pass
+
+func init(suit, rank):
+	self.suit = suit
+	self.rank = rank

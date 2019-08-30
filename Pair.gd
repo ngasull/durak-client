@@ -1,10 +1,12 @@
 extends Spatial
 
-#    "login": "CAJAX",
-#    "password": "toto"
+var attack
+var defense
+var index
 
-#    "login": "",
-#    "password": ""
+func _init(attack, index):
+	self.attack = attack
+	self.index = index
 
 func _ready():
 	# Called when the node is added to the scene for the first time.

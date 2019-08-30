@@ -2,28 +2,29 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/10_of_spades.png-3df387bc360abb9a5f200f2297a7581d.stex"
+path.s3tc="res://.import/10_of_spades.png-3df387bc360abb9a5f200f2297a7581d.s3tc.stex"
+path.etc2="res://.import/10_of_spades.png-3df387bc360abb9a5f200f2297a7581d.etc2.stex"
 
 [deps]
 
 source_file="res://PNG-cards-1.3/10_of_spades.png"
-dest_files=[ "res://.import/10_of_spades.png-3df387bc360abb9a5f200f2297a7581d.stex" ]
+dest_files=[ "res://.import/10_of_spades.png-3df387bc360abb9a5f200f2297a7581d.s3tc.stex", "res://.import/10_of_spades.png-3df387bc360abb9a5f200f2297a7581d.etc2.stex" ]
 
 [params]
 
-compress/mode=0
+compress/mode=2
 compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
-flags/repeat=0
+flags/repeat=true
 flags/filter=true
-flags/mipmaps=false
+flags/mipmaps=true
 flags/anisotropic=false
-flags/srgb=2
+flags/srgb=1
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0
